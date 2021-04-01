@@ -786,7 +786,11 @@ a:focus {
     color: #fff;
 }
 
-.c-link-cta--inverse::after,
+.c-link-cta--inverse::after {
+    background-color: #fff;
+}
+
+
 .c-link-cta--inverse:hover::after {
     background-color: #fff;
 }
